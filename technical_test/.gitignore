@@ -1,0 +1,79 @@
+# ==============================
+# Maven build
+# ==============================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# Spring Tool Suite / Eclipse
+# ==============================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ==============================
+# NetBeans
+# ==============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+# ==============================
+# Logs & temporary
+# ==============================
+*.log
+*.tmp
+*.bak
+
+# ==============================
+# OS-specific
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Environment files
+# ==============================
+.env
+*.local
+*.secret
+*.properties.local
+
+# ==============================
+# Docker-related
+# ==============================
+**/docker-compose.override.yml
+**/docker-data/
+**/docker-volumes/
+**/data/
+
+# ==============================
+# Keep these important files
+# ==============================
+!README.md
+!README_EN.md
+!Dockerfile
+!docker-compose.yml
+!pom.xml
